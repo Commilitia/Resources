@@ -131,6 +131,21 @@ function autheliaSelectInScope(node, selector) {
   return node.matches(selector) ? node : node.querySelector(selector);
 }
 
+function autheliaResetIconHeader() {
+  document.title = document.title.replace(/Authelia/g, "Commilitia");
+
+  let link = document.querySelector("link[rel*='icon']");
+  if (link) {
+    link.href = "https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/icons/commilitia-red.png";
+  } else {
+    link = document.createElement("link");
+    link.type = "image/png";
+    link.rel = "icon";
+    link.href = "https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/icons/commilitia-red.png";
+    document.getElementsByTagName('head')[0].appendChild(link);
+  }
+}
+
 document.head.appendChild(
   (() => {
     const link = document.createElement("link");
@@ -144,6 +159,7 @@ document.head.appendChild(
 
 document.addEventListener("DOMContentLoaded", async () => {
   await Promise.resolve();
+  autheliaResetIconHeader();
   document.querySelectorAll("*").forEach((node) => {
     if (!(node instanceof HTMLElement)) return;
     autheliaApplyStyle(node);
@@ -152,7 +168,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     mutations.forEach((mutation) => {
       mutation.addedNodes.forEach((node) => {
         if (!(node instanceof HTMLElement)) return;
-        autheliaRecursiveExecute(node, "*", nexusApplyStyle);
+        autheliaRecursiveExecute(node, "*", autheliaApplyStyle);
       });
     });
   }).observe(document.body, {
