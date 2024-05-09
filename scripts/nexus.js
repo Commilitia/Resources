@@ -156,7 +156,7 @@ document.head.appendChild(
     link.rel = "stylesheet";
     link.type = "text/css";
     link.href =
-      "https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/styles/nexus.css";
+      "https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/styles/commilitiaFonts.css";
     return link;
   })()
 );
