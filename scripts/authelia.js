@@ -136,6 +136,7 @@ function autheliaResetIconHeader() {
 
   let link = document.querySelector("link[rel*='icon']");
   if (link) {
+    link.type = "image/png";
     link.href = "https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/icons/commilitia-red.png";
   } else {
     link = document.createElement("link");
