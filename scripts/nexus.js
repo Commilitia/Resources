@@ -127,7 +127,7 @@ document.head.appendChild((()=>{
     const link=document.createElement('link');
     link.rel='stylesheet';
     link.type='text/css';
-    link.href='https://cdn.jsdelivr.net/gh/Commilitia/Resources/styles/nexus.css'
+    link.href='https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/styles/nexus.css'
     return link;
 })());
 
