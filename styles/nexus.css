@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'CommilitiaFont UI SC';
+    src: url('https://cdn.jsdelivr.net/gh/Commilitia/Resources/fonts/sans/CommilitiaFont-UI-SC-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CommilitiaFont UI SC';
+    src: url('https://cdn.jsdelivr.net/gh/Commilitia/Resources/fonts/sans/CommilitiaFont-UI-SC-Italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CommilitiaFont UI SC';
+    src: url('https://cdn.jsdelivr.net/gh/Commilitia/Resources/fonts/sans/CommilitiaFont-UI-SC-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CommilitiaFont UI SC';
+    src: url('https://cdn.jsdelivr.net/gh/Commilitia/Resources/fonts/sans/CommilitiaFont-UI-SC-SemiBold-Italic.woff2') format('woff2');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CommilitiaFont UI SC';
+    src: url('https://cdn.jsdelivr.net/gh/Commilitia/Resources/fonts/sans/CommilitiaFont-UI-SC-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CommilitiaFont UI SC';
+    src: url('https://cdn.jsdelivr.net/gh/Commilitia/Resources/fonts/sans/CommilitiaFont-UI-SC-Bold-Italic.woff2') format('woff2');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MonoLisa Commilitia';
+    src: url('https://cdn.jsdelivr.net/gh/Commilitia/Resources/fonts/mono/MonoLisaCommilitiaLight-Regular.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MonoLisa Commilitia';
+    src: url('https://cdn.jsdelivr.net/gh/Commilitia/Resources/fonts/mono/MonoLisaCommilitiaLight-Italic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MonoLisa Commilitia';
+    src: url('https://cdn.jsdelivr.net/gh/Commilitia/Resources/fonts/mono/MonoLisaCommilitia-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MonoLisa Commilitia';
+    src: url('https://cdn.jsdelivr.net/gh/Commilitia/Resources/fonts/mono/MonoLisaCommilitia-RegularItalic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MonoLisa Commilitia';
+    src: url('https://cdn.jsdelivr.net/gh/Commilitia/Resources/fonts/mono/MonoLisaCommilitiaMedium-Regular.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MonoLisa Commilitia';
+    src: url('https://cdn.jsdelivr.net/gh/Commilitia/Resources/fonts/mono/MonoLisaCommilitiaMedium-Italic.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MonoLisa Commilitia';
+    src: url('https://cdn.jsdelivr.net/gh/Commilitia/Resources/fonts/mono/MonoLisaCommilitiaSemiBold-Regular.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MonoLisa Commilitia';
+    src: url('https://cdn.jsdelivr.net/gh/Commilitia/Resources/fonts/mono/MonoLisaCommilitiaSemiBold-Italic.woff2') format('woff2');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MonoLisa Commilitia';
+    src: url('https://cdn.jsdelivr.net/gh/Commilitia/Resources/fonts/mono/MonoLisaCommilitia-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MonoLisa Commilitia';
+    src: url('https://cdn.jsdelivr.net/gh/Commilitia/Resources/fonts/mono/MonoLisaCommilitia-BoldItalic.woff2') format('woff2');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+.post-license {
+    display: none !important;
+}
