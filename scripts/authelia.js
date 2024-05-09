@@ -134,17 +134,23 @@ function autheliaSelectInScope(node, selector) {
 function autheliaResetIconHeader() {
   document.title = document.title.replace(/Authelia/g, "Commilitia");
 
-  let link = document.querySelector("link[rel*='icon']");
+  let link;
+
+  document.querySelectorAll(
+    'link[rel="icon"], link[rel="shortcut icon"], link[rel="apple-touch-icon"], link[rel="mask-icon"]'
+  ).forEach(linkX => linkX.rel === 'icon' ? link = linkX : linkX.remove());
+
   if (link) {
-    link.type = "image/png";
-    link.href = "https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/icons/commilitia-red.png";
-  } else {
-    link = document.createElement("link");
-    link.type = "image/png";
-    link.rel = "icon";
-    link.href = "https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/icons/commilitia-red.png";
-    document.getElementsByTagName('head')[0].appendChild(link);
+    link.type = 'image/png';
+    link.href = 'https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/icons/commilitia-red.png';
+    return;
   }
+
+  link = document.createElement('link');
+  link.type = 'image/png';
+  link.rel = 'icon';
+  link.href = 'https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/icons/commilitia-red.png';
+  document.head.appendChild(link);
 }
 
 document.head.appendChild(

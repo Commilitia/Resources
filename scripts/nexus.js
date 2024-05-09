@@ -184,7 +184,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             "Quad erat demonstrandum."
           );
         nodeX = nexusSelectInScope(node, ".post-license");
-        if (nodeX) nodeX.parentElement.removeChild(nodeX);
+        if (nodeX) nodeX.remove();
       });
     });
   }).observe(document.body, {
