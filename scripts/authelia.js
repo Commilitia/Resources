@@ -183,4 +183,13 @@ document.addEventListener("DOMContentLoaded", async () => {
     childList: true,
     subtree: true,
   });
+  const titleGuard = new MutationObserver(mutations => {
+    mutations.forEach(mutation => {
+      if (mutation.type !== 'childList') return;
+      const newTitle = document.title.replace(/Authelia/g, 'Commilitia');
+      if (document.title === newTitle) return;
+      document.title = newTitle;
+    });
+  });
+  titleGuard.observe(document.head, {childList: true});
 });
