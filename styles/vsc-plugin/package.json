@@ -1,0 +1,32 @@
+{
+  "name": "commilitia-fonts",
+  "displayName": "Commilitia Fonts",
+  "version": "1.0.0",
+  "publisher": "Commilitia",
+  "engines": {
+    "vscode": "^1.58.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:customFonts.activate"
+  ],
+  "description": "Inject Custom Fonts into vscode",
+  "main": "extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "commilitiaFonts.activate",
+        "title": "Activate Commilitia Fonts"
+      }
+    ]
+  },
+  "scripts": {
+    "postinstall": "echo 'Dependency installation complete.'"
+  },
+  "author": "Commilitia",
+  "devDependencies": {
+    "vscode": "^1.1.37"
+  }
+}
