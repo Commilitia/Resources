@@ -1,6 +1,6 @@
 @font-face {
   font-family: "CommilitiaFont UI SC";
-  src: url("https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/fonts/sans/CommilitiaFont-UI-SC-Regular.woff2")
+  src: url("https://cdn.jsdelivr.net/gh/Commilitia/ResourcesFontSansRegular@master/fonts/sans/CommilitiaFont-UI-SC-Regular.woff2")
     format("woff2");
   font-weight: 400;
   font-style: normal;
@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: "CommilitiaFont UI SC";
-  src: url("https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/fonts/sans/CommilitiaFont-UI-SC-Italic.woff2")
+  src: url("https://cdn.jsdelivr.net/gh/Commilitia/ResourcesFontSansItalic@master/fonts/sans/CommilitiaFont-UI-SC-Italic.woff2")
     format("woff2");
   font-weight: 400;
   font-style: italic;
@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: "CommilitiaFont UI SC";
-  src: url("https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/fonts/sans/CommilitiaFont-UI-SC-SemiBold.woff2")
+  src: url("https://cdn.jsdelivr.net/gh/Commilitia/ResourcesFontSansRegular@master/fonts/sans/CommilitiaFont-UI-SC-SemiBold.woff2")
     format("woff2");
   font-weight: 600;
   font-style: normal;
@@ -27,7 +27,7 @@
 
 @font-face {
   font-family: "CommilitiaFont UI SC";
-  src: url("https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/fonts/sans/CommilitiaFont-UI-SC-SemiBold-Italic.woff2")
+  src: url("https://cdn.jsdelivr.net/gh/Commilitia/ResourcesFontSansItalic@master/fonts/sans/CommilitiaFont-UI-SC-SemiBold-Italic.woff2")
     format("woff2");
   font-weight: 600;
   font-style: italic;
@@ -36,7 +36,7 @@
 
 @font-face {
   font-family: "CommilitiaFont UI SC";
-  src: url("https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/fonts/sans/CommilitiaFont-UI-SC-Bold.woff2")
+  src: url("https://cdn.jsdelivr.net/gh/Commilitia/ResourcesFontSansRegular@master/fonts/sans/CommilitiaFont-UI-SC-Bold.woff2")
     format("woff2");
   font-weight: 700;
   font-style: normal;
@@ -45,7 +45,7 @@
 
 @font-face {
   font-family: "CommilitiaFont UI SC";
-  src: url("https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/fonts/sans/CommilitiaFont-UI-SC-Bold-Italic.woff2")
+  src: url("https://cdn.jsdelivr.net/gh/Commilitia/ResourcesFontSansItalic@master/fonts/sans/CommilitiaFont-UI-SC-Bold-Italic.woff2")
     format("woff2");
   font-weight: 700;
   font-style: italic;
@@ -54,7 +54,7 @@
 
 @font-face {
   font-family: "CommilitiaFont UI TC";
-  src: url("https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/fonts/sans/CommilitiaFont-UI-TC-Regular.woff2")
+  src: url("https://cdn.jsdelivr.net/gh/Commilitia/ResourcesFontSansRegular@master/fonts/sans/CommilitiaFont-UI-TC-Regular.woff2")
     format("woff2");
   font-weight: 400;
   font-style: normal;
@@ -63,7 +63,7 @@
 
 @font-face {
   font-family: "CommilitiaFont UI TC";
-  src: url("https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/fonts/sans/CommilitiaFont-UI-TC-Italic.woff2")
+  src: url("https://cdn.jsdelivr.net/gh/Commilitia/ResourcesFontSansItalic@master/fonts/sans/CommilitiaFont-UI-TC-Italic.woff2")
     format("woff2");
   font-weight: 400;
   font-style: italic;
@@ -72,7 +72,7 @@
 
 @font-face {
   font-family: "CommilitiaFont UI TC";
-  src: url("https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/fonts/sans/CommilitiaFont-UI-TC-SemiBold.woff2")
+  src: url("https://cdn.jsdelivr.net/gh/Commilitia/ResourcesFontSansRegular@master/fonts/sans/CommilitiaFont-UI-TC-SemiBold.woff2")
     format("woff2");
   font-weight: 600;
   font-style: normal;
@@ -81,7 +81,7 @@
 
 @font-face {
   font-family: "CommilitiaFont UI TC";
-  src: url("https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/fonts/sans/CommilitiaFont-UI-TC-SemiBold-Italic.woff2")
+  src: url("https://cdn.jsdelivr.net/gh/Commilitia/ResourcesFontSansItalic@master/fonts/sans/CommilitiaFont-UI-TC-SemiBold-Italic.woff2")
     format("woff2");
   font-weight: 600;
   font-style: italic;
@@ -90,7 +90,7 @@
 
 @font-face {
   font-family: "CommilitiaFont UI TC";
-  src: url("https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/fonts/sans/CommilitiaFont-UI-TC-Bold.woff2")
+  src: url("https://cdn.jsdelivr.net/gh/Commilitia/ResourcesFontSansRegular@master/fonts/sans/CommilitiaFont-UI-TC-Bold.woff2")
     format("woff2");
   font-weight: 700;
   font-style: normal;
@@ -99,7 +99,7 @@
 
 @font-face {
   font-family: "CommilitiaFont UI TC";
-  src: url("https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/fonts/sans/CommilitiaFont-UI-TC-Bold-Italic.woff2")
+  src: url("https://cdn.jsdelivr.net/gh/Commilitia/ResourcesFontSansItalic@master/fonts/sans/CommilitiaFont-UI-TC-Bold-Italic.woff2")
     format("woff2");
   font-weight: 700;
   font-style: italic;
@@ -108,7 +108,7 @@
 
 @font-face {
   font-family: "MonoLisa Commilitia";
-  src: url("https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/fonts/mono/MonoLisaCommilitia-Light.woff2")
+  src: url("https://cdn.jsdelivr.net/gh/Commilitia/ResourcesFontMono@master/fonts/mono/MonoLisaCommilitia-Light.woff2")
     format("woff2");
   font-weight: 300;
   font-style: normal;
@@ -116,7 +116,7 @@
 }
 @font-face {
   font-family: "MonoLisa Commilitia";
-  src: url("https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/fonts/mono/MonoLisaCommilitia-Light.woff2")
+  src: url("https://cdn.jsdelivr.net/gh/Commilitia/ResourcesFontMono@master/fonts/mono/MonoLisaCommilitia-Light.woff2")
     format("woff2");
   font-weight: 300;
   font-style: normal;
@@ -125,7 +125,7 @@
 
 @font-face {
   font-family: "MonoLisa Commilitia";
-  src: url("https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/fonts/mono/MonoLisaCommilitia-LightItalic.woff2")
+  src: url("https://cdn.jsdelivr.net/gh/Commilitia/ResourcesFontMono@master/fonts/mono/MonoLisaCommilitia-LightItalic.woff2")
     format("woff2");
   font-weight: 300;
   font-style: italic;
@@ -134,7 +134,7 @@
 
 @font-face {
   font-family: "MonoLisa Commilitia";
-  src: url("https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/fonts/mono/MonoLisaCommilitia-Regular.woff2")
+  src: url("https://cdn.jsdelivr.net/gh/Commilitia/ResourcesFontMono@master/fonts/mono/MonoLisaCommilitia-Regular.woff2")
     format("woff2");
   font-weight: 400;
   font-style: normal;
@@ -143,7 +143,7 @@
 
 @font-face {
   font-family: "MonoLisa Commilitia";
-  src: url("https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/fonts/mono/MonoLisaCommilitia-RegularItalic.woff2")
+  src: url("https://cdn.jsdelivr.net/gh/Commilitia/ResourcesFontMono@master/fonts/mono/MonoLisaCommilitia-RegularItalic.woff2")
     format("woff2");
   font-weight: 400;
   font-style: italic;
@@ -152,7 +152,7 @@
 
 @font-face {
   font-family: "MonoLisa Commilitia";
-  src: url("https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/fonts/mono/MonoLisaCommilitia-Medium.woff2")
+  src: url("https://cdn.jsdelivr.net/gh/Commilitia/ResourcesFontMono@master/fonts/mono/MonoLisaCommilitia-Medium.woff2")
     format("woff2");
   font-weight: 500;
   font-style: normal;
@@ -161,7 +161,7 @@
 
 @font-face {
   font-family: "MonoLisa Commilitia";
-  src: url("https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/fonts/mono/MonoLisaCommilitia-MediumItalic.woff2")
+  src: url("https://cdn.jsdelivr.net/gh/Commilitia/ResourcesFontMono@master/fonts/mono/MonoLisaCommilitia-MediumItalic.woff2")
     format("woff2");
   font-weight: 500;
   font-style: italic;
@@ -170,7 +170,7 @@
 
 @font-face {
   font-family: "MonoLisa Commilitia";
-  src: url("https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/fonts/mono/MonoLisaCommilitia-SemiBold.woff2")
+  src: url("https://cdn.jsdelivr.net/gh/Commilitia/ResourcesFontMono@master/fonts/mono/MonoLisaCommilitia-SemiBold.woff2")
     format("woff2");
   font-weight: 600;
   font-style: normal;
@@ -179,7 +179,7 @@
 
 @font-face {
   font-family: "MonoLisa Commilitia";
-  src: url("https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/fonts/mono/MonoLisaCommilitia-SemiBoldItalic.woff2")
+  src: url("https://cdn.jsdelivr.net/gh/Commilitia/ResourcesFontMono@master/fonts/mono/MonoLisaCommilitia-SemiBoldItalic.woff2")
     format("woff2");
   font-weight: 600;
   font-style: italic;
@@ -188,7 +188,7 @@
 
 @font-face {
   font-family: "MonoLisa Commilitia";
-  src: url("https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/fonts/mono/MonoLisaCommilitia-Bold.woff2")
+  src: url("https://cdn.jsdelivr.net/gh/Commilitia/ResourcesFontMono@master/fonts/mono/MonoLisaCommilitia-Bold.woff2")
     format("woff2");
   font-weight: 700;
   font-style: normal;
@@ -197,7 +197,7 @@
 
 @font-face {
   font-family: "MonoLisa Commilitia";
-  src: url("https://cdn.jsdelivr.net/gh/Commilitia/Resources@master/fonts/mono/MonoLisaCommilitia-BoldItalic.woff2")
+  src: url("https://cdn.jsdelivr.net/gh/Commilitia/ResourcesFontMono@master/fonts/mono/MonoLisaCommilitia-BoldItalic.woff2")
     format("woff2");
   font-weight: 700;
   font-style: italic;
